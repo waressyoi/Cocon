@@ -10,7 +10,6 @@
   - [充電](#充電)
   - [トラブルシューティング](#トラブルシューティング)
 
-
 ## デフォルトキーマップ
 
 デフォルトでは下記のキーマップになっています。
@@ -35,9 +34,9 @@ Layer5（Bluetooth Layer）
 
 ## キーマップ変更方法
 
-1. 下記のリポジトリをフォークする。
+1. 下記のリポジトリをフォークする。  
     [Cocon-zmk-config](https://github.com/waressyoi/Cocon-zmk-config.git)
-1. フォーク後Keymap Editorにアクセス
+1. フォーク後Keymap Editorにアクセス  
     [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
 1. 中央のGithubをクリック
     ![Keymap_Editor_1](image/Keymap_Editor_1.png)
@@ -49,7 +48,7 @@ Layer5（Bluetooth Layer）
 ![Keymap_Editor_3](image/Keymap_Editor_3.png)
 
 1. 変更したいキーをクリックすることで好きにキーマップを変更できます。
-1. キーマップの変更が完了したら左上の「Save」をクリックしてください。ZZZ
+1. キーマップの変更が完了したら左上の「Save」をクリックしてください。
 1. GitHub Actionsで自動的にファームウェアがビルドされます。
 1. ビルドが完了するとと「Firmware.zip」がダウンロードできます。
 
