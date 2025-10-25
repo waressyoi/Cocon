@@ -15,22 +15,22 @@
 デフォルトでは下記のキーマップになっています。
 
 Default Layer
-![default_layer](image/default_layer.png)
+![default_layer](image/user_manual/default_layer.png)
 
 Layer1（Function Layer）
-![layer_1](image/layer_1.png)
+![layer_1](image/user_manual/layer_1.png)
 
 Layer2（Number Arrow  Layer）
-![layer_2](image/layer_2.png)
+![layer_2](image/user_manual/layer_2.png)
 
 Layer3（Mouse Layer）
-![layer_3](image/layer_3.png)
+![layer_3](image/user_manual/layer_3.png)
 
 Layer4（Scroll Number Layer）
-![layer_4](image/layer_4.png)
+![layer_4](image/user_manual/layer_4.png)
 
 Layer5（Bluetooth Layer）
-![layer_5](image/layer_5.png)
+![layer_5](image/user_manual/layer_5.png)
 
 ## キーマップ変更方法
 
@@ -39,32 +39,32 @@ Layer5（Bluetooth Layer）
 1. フォーク後Keymap Editorにアクセス  
     [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
 1. 中央のGithubをクリック
-    ![Keymap_Editor_1](image/Keymap_Editor_1.png)
+    ![Keymap_Editor_1](image/user_manual/Keymap_Editor_1.png)
 1. 「Login with GitHub」をクリック
-    ![Keymap_Editor_2](image/Keymap_Editor_2.png)
+    ![Keymap_Editor_2](image/user_manual/Keymap_Editor_2.png)
 1. 「Authorize Keymap Editor」を選択  
     指示に従いCocon-zmk-configにアクセスできるようにする。
 1. アクセスできるようになると下記の画像のようにキーマップが表示されます。
-![Keymap_Editor_3](image/Keymap_Editor_3.png)
+![Keymap_Editor_3](image/user_manual/Keymap_Editor_3.png)
 
 1. 変更したいキーをクリックすることで好きにキーマップを変更できます。
 1. キーマップの変更が完了したら左上の「Save」をクリックしてください。
 1. GitHub Actionsで自動的にファームウェアがビルドされます。
 1. ビルドが完了するとと「Firmware.zip」がダウンロードできます。
-    ![GitHubActions](image/GitHubActions.png)
+    ![GitHubActions](image/user_manual/GitHubActions.png)
 
 ## ファームウェアインストール
 
 1. PCとUSBで接続する。
 1. 赤丸で囲っている部分から細い棒を入れてXiao BLEのリセットボタンを2回押してください。
 
-    ![Cocon_reset_button](image/Cocon_reset_button.drawio.png)
+    ![Cocon_reset_button](image/user_manual/Cocon_reset_button.drawio.png)
 
 1. 対応したFirmwareファイルを「XIAO-SENSE」にドラッグアンドドロップする。  
     右手側：Cocon_R rgbled_adapter-seeeduino_xiao_ble-zmk.uf2  
     左手側：Cocon_L rgbled_adapter-seeeduino_xiao_ble-zmk.uf2
 
-    ![Firmware](image/Firmware.png)
+    ![Firmware](image/user_manual/Firmware.png)
 
 ## 充電
 
@@ -87,9 +87,9 @@ Windowsと接続した際にトラックボールの反応が悪い場合は下�
 
 1. デバイスマネージャーを開く
 1. 「Cocon」を選択した状態で「表示」をクリックして表示順を「デバイス（接続別）」に変更してください。  
-    ![Device Manager](image/Device_manager_1.png)  
-    ![Device Manager](image/Device_manager_2.png)
+    ![Device Manager](image/user_manual/Device_manager_1.png)  
+    ![Device Manager](image/user_manual/Device_manager_2.png)
 1. 「Cocon」が接続しているデバイスのプロパティを開きます
     「電源の節約のために、コンピューターでこのデバイスの電源をオフにできるようにする(A)」のチェックを外す
-    ![Device Manager](image/Device_manager_3.png)
+    ![Device Manager](image/user_manual/Device_manager_3.png)
 1. Microsoft Bluetooth LE Enumerator」→「RZ717 Bluetooth(R) Adapter」・・・のように接続しているデバイスすべての設定を変更してください。
