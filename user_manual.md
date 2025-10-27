@@ -4,11 +4,18 @@
 
 - [User manual for Cocon](#user-manual-for-cocon)
   - [目次](#目次)
+  - [電源の入れ方](#電源の入れ方)
   - [デフォルトキーマップ](#デフォルトキーマップ)
   - [キーマップ変更方法](#キーマップ変更方法)
   - [ファームウェアインストール](#ファームウェアインストール)
   - [充電](#充電)
   - [トラブルシューティング](#トラブルシューティング)
+
+## 電源の入れ方
+
+本体の横側にあるスイッチを手前側にスライドしてください。  
+※組立時にバッテリーを搭載していない場合、スライドスイッチの操作は必要ありません。USBを接続することで使用できます。  
+![device_on](image/user_manual/device_on.drawio.png)
 
 ## デフォルトキーマップ
 
@@ -30,6 +37,10 @@ Layer4（Scroll Number Layer）
 ![layer_4](image/user_manual/layer_4.png)
 
 Layer5（Bluetooth Layer）
+
+> [!TIP]
+> Default Layerの「Shift」と「‐」を同時押しすることで入れます。
+
 ![layer_5](image/user_manual/layer_5.png)
 
 ## キーマップ変更方法
